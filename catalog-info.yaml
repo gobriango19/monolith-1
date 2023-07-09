@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: monolith-1
+  description: Monolith 1
+spec:
+  type: website
+  lifecycle: experimental
+  owner: brian
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: monolith-1-components-locations
+spec:
+  type: url
+  targets:
+    - ./monolith-1-component-1/backstage.yaml
+    - ./monolith-1-component-2/backstage.yaml
+    - ./monolith-1-component-3/backstage.yaml

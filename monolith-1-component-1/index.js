@@ -1,0 +1,1 @@
+console.log('Hello from monolith-1-component-1!');
