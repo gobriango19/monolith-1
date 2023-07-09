@@ -13,7 +13,6 @@ kind: Location
 metadata:
   name: monolith-1-components-locations
 spec:
-  type: file
   targets:
     - ./monolith-1-component-1/backstage.yaml
     - ./monolith-1-component-2/backstage.yaml
