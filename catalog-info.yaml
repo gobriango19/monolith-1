@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: monolith-1
   description: Monolith 1
+  annotations:
+    github.com/project-slug: gobriango19/monolith-1
 spec:
   type: website
   lifecycle: experimental
