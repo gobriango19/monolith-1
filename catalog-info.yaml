@@ -7,6 +7,10 @@ spec:
   type: website
   lifecycle: experimental
   owner: brian
+  dependsOn:
+    - component:monolith-1-component-1
+    - component:monolith-1-component-2
+    - component:monolith-1-component-3
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
