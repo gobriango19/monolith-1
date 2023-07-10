@@ -4,7 +4,7 @@ metadata:
   name: monolith-1-component-3
   description: Monolith 1, Component 3
 spec:
-  type: website
+  type: service
   lifecycle: experimental
   owner: brian
   subcomponentOf: component:monolith-1
