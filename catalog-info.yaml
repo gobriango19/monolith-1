@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: gobriango19/monolith-1
 spec:
   type: website
-  lifecycle: experimental
+  lifecycle: "random status"
   owner: brian
   dependsOn:
     - component:monolith-1-component-1
